@@ -1,0 +1,11 @@
+create DATABASE agenda;
+use agenda;
+
+create table persona(
+id int not null AUTO_INCREMENT,
+codigo varchar(30),
+nombre varchar(30),
+telefono varchar(11),
+email varchar(30),
+primary key(id)
+);
